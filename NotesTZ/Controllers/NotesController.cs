@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using NotesTZ.Models;
 using NotesTZ.Service;
 
@@ -23,35 +24,39 @@ namespace NotesTZ.Controllers
 
         // GET: api/<NotesController>
         [HttpGet]
-        public async Task<IEnumerable<Note>> Get()
+        public async Task<string> Get()
         {
-           return await _service.GetAllAsync();
+            var res = JsonConvert.SerializeObject(await _service.GetAllAsync());
+            return JsonConvert.SerializeObject(await _service.GetAllAsync());
         }
 
         // GET api/<NotesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<string> Get(Guid id)
         {
-            return "value";
+            return JsonConvert.SerializeObject(await _service.GetByIdAsync(id));
         }
 
         // POST api/<NotesController>
         [HttpPost]
-        public void Post(Note note)
+        public async Task Post([FromForm] Note note)
         {
-
+            note.CreationDate = DateTime.Now.Date;
+            await _service.CreateAsync(note);
         }
 
         // PUT api/<NotesController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
+        public async Task Put(Guid id, [FromForm] Note note)
+        {          
+            await _service.UpdateAsync(id, note);
         }
 
         // DELETE api/<NotesController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(Guid id)
         {
+            await _service.RemoveAsync(await _service.GetByIdAsync(id));
         }
     }
 }

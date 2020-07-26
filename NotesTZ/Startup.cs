@@ -16,6 +16,7 @@ using NotesTZ.Models;
 using NotesTZ.Repository;
 using NotesTZ.Service;
 using React.AspNet;
+using Microsoft.AspNetCore.Mvc;
 
 namespace NotesTZ
 {
@@ -38,8 +39,6 @@ namespace NotesTZ
             services.AddJsEngineSwitcher(options => options.DefaultEngineName = ChakraCoreJsEngine.EngineName).AddChakraCore();
 
             services.AddControllers();
-
-            var d = _configuration.GetConnectionString("default");
 
             services.AddDbContext<NoteContext>(options => options.UseSqlServer(_configuration.GetConnectionString("default")), ServiceLifetime.Transient);
             services.AddTransient(typeof(IRepository<Note>), typeof(NoteRepository));

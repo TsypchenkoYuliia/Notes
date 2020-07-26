@@ -1,0 +1,46 @@
+﻿html, body {
+    height: 100%;
+    background-color: #26253f;
+    font-family: themify;
+}
+
+$colorText:antiquewhite; 
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 600px;
+}
+
+.tableBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+table {
+    color: $colorText;
+}
+
+
+th, td {
+    text-align: center;
+    padding:20px;
+}
+
+h2 {
+    margin-top: 70px;
+    color: $colorText;
+}
+h3 {
+    color: $colorText;
+}

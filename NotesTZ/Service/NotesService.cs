@@ -27,7 +27,10 @@ namespace NotesTZ.Service
 
         public async Task<Note> GetByIdAsync(Guid id)
         {
-            return await _repository.GetByIdAsync(id);
+            var note = await _repository.GetByIdAsync(id);
+            if (!(note is null))
+                return note;
+            return null;
         }
 
         public async Task RemoveAsync(Note note)
@@ -35,9 +38,15 @@ namespace NotesTZ.Service
             await _repository.RemoveAsync(note);
         }
 
-        public async Task UpdateAsync(Note note)
+        public async Task UpdateAsync(Guid Id, Note newNote)
         {
-            await _repository.UpdateAsync(note);
+            var note = await _repository.GetByIdAsync(Id);
+            if (!(note is null))
+            {
+                note.Content = newNote.Content;
+                note.Heading = newNote.Heading;
+                await _repository.UpdateAsync(note);
+            }
         }
     }
 }

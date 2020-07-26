@@ -11,7 +11,7 @@ namespace NotesTZ.Service
         Task<IReadOnlyCollection<Note>> GetAllAsync();
         Task<Note> GetByIdAsync(Guid id);
         Task CreateAsync(T obj);
-        Task UpdateAsync(T obj);
+        Task UpdateAsync(Guid Id, T obj);
         Task RemoveAsync(T obj);
     }
 }
