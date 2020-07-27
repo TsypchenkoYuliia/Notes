@@ -2,9 +2,25 @@
     height: 100%;
     background-color: #26253f;
     font-family: themify;
+
 }
 
-$colorText:antiquewhite; 
+$colorText:antiquewhite;
+
+%tpborder {
+    border: solid 2px #68677e;
+    border-radius: 6px;
+    background-color: #26253f;
+}
+
+%tlborder {
+    border: solid 2px #68677e;
+    border-radius: 6px;
+}
+
+$sizeH:100px;
+$sizeW: 200px;
+
 
 #content {
     display: flex;
@@ -24,23 +40,98 @@ $colorText:antiquewhite;
 .formBox {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.innerBox {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: solid 5px $colorText;
+    border-radius: 10px;
+}
+
+.box {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.boxTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainBox {
+    width: 90%;
 }
 
 table {
     color: $colorText;
 }
 
-
 th, td {
     text-align: center;
-    padding:20px;
+    padding: 10px;
+}
+
+.noteText {
+    max-width: 60% !important;
+}
+
+tr {
+    background-color: #36354f;
+}
+
+th {
+    background-color: #68677e;
 }
 
 h2 {
-    margin-top: 70px;
+    margin-top: 20px;
     color: $colorText;
 }
-h3 {
+
+h3, h1 {
+    color: $colorText;
+}
+
+.titleBox {
+    display: flex;
+    align-items: center;
+}
+
+#area {
+    margin-top: 37px;
+}
+
+textarea {
+    width: $sizeW;
+    height: $sizeH;
+    min-width: $sizeW;
+    min-height: $sizeH;
+    max-width: $sizeW;
+    max-height: $sizeH;
+    @extend %tlborder;
+}
+
+input[type=text] {
+    min-width: $sizeW;
+    @extend %tlborder;
+}
+
+input[type=submit] {
+    margin-left: 10px;
+    width: 70px;
+    @extend %tpborder;
+    color: $colorText;
+}
+
+button {
+    @extend %tpborder;
     color: $colorText;
 }

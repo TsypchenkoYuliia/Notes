@@ -1,0 +1,260 @@
+{
+	"info": {
+		"_postman_id": "7e2fc712-8edf-42fd-999d-65b47508c403",
+		"name": "Notes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://uliats-001-site1.itempurl.com/api/notes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d794a5ff-c58d-4e37-bb3b-752433e5097f",
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);   \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "id",
+						"value": "fecfb362-02eb-4bb2-0223-08d8319fc1bf",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Heading",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "Content",
+							"value": "test",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://uliats-001-site1.itempurl.com/api/notes",
+					"protocol": "http",
+					"host": [
+						"uliats-001-site1",
+						"itempurl",
+						"com"
+					],
+					"path": [
+						"api",
+						"notes"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "fecfb362-02eb-4bb2-0223-08d8319fc1bf",
+							"disabled": true
+						}
+					]
+				},
+				"description": "post"
+			},
+			"response": []
+		},
+		{
+			"name": "http://uliats-001-site1.itempurl.com/api/notes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d794a5ff-c58d-4e37-bb3b-752433e5097f",
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);   \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Heading",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "Content",
+							"value": "test",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://uliats-001-site1.itempurl.com/api/notes",
+					"protocol": "http",
+					"host": [
+						"uliats-001-site1",
+						"itempurl",
+						"com"
+					],
+					"path": [
+						"api",
+						"notes"
+					]
+				},
+				"description": "get"
+			},
+			"response": []
+		},
+		{
+			"name": "http://uliats-001-site1.itempurl.com/api/notes/c9f294b1-d8a4-4395-6a67-08d831a1c279",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d794a5ff-c58d-4e37-bb3b-752433e5097f",
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);   \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "id",
+						"value": "c9f294b1-d8a4-4395-6a67-08d831a1c279",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Heading",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "Content",
+							"value": "test",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://uliats-001-site1.itempurl.com/api/notes/c9f294b1-d8a4-4395-6a67-08d831a1c279",
+					"protocol": "http",
+					"host": [
+						"uliats-001-site1",
+						"itempurl",
+						"com"
+					],
+					"path": [
+						"api",
+						"notes",
+						"c9f294b1-d8a4-4395-6a67-08d831a1c279"
+					]
+				},
+				"description": "get/id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://uliats-001-site1.itempurl.com/api/notes/c9f294b1-d8a4-4395-6a67-08d831a1c279",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d794a5ff-c58d-4e37-bb3b-752433e5097f",
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);   \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "id",
+						"value": "fecfb362-02eb-4bb2-0223-08d8319fc1bf",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Heading",
+							"value": "testNewVal",
+							"type": "text"
+						},
+						{
+							"key": "Content",
+							"value": "testNewVal",
+							"type": "text"
+						},
+						{
+							"key": "Id",
+							"value": "c9f294b1-d8a4-4395-6a67-08d831a1c279",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://uliats-001-site1.itempurl.com/api/notes/c9f294b1-d8a4-4395-6a67-08d831a1c279",
+					"protocol": "http",
+					"host": [
+						"uliats-001-site1",
+						"itempurl",
+						"com"
+					],
+					"path": [
+						"api",
+						"notes",
+						"c9f294b1-d8a4-4395-6a67-08d831a1c279"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "fecfb362-02eb-4bb2-0223-08d8319fc1bf",
+							"disabled": true
+						}
+					]
+				},
+				"description": "put/id"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

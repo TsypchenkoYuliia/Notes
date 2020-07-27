@@ -1,6 +1,4 @@
-﻿/// <binding Clean='clean' />
-/// <binding Clean='clean' />
-"use strict";
+﻿"use strict";
 
 var gulp = require("gulp"),
     sass = require("gulp-sass"); // добавляем модуль sass

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://ftp.site4now.net/notes</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AdvancedStringBuilder.dll">
+      <publishTime>12/03/2018 15:07:32</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>07/27/2020 13:51:41</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>07/27/2020 13:51:41</publishTime>
+    </File>
+    <File Include="JavaScriptEngineSwitcher.ChakraCore.dll">
+      <publishTime>06/11/2020 14:38:46</publishTime>
+    </File>
+    <File Include="JavaScriptEngineSwitcher.Core.dll">
+      <publishTime>12/27/2019 19:45:22</publishTime>
+    </File>
+    <File Include="JavaScriptEngineSwitcher.Extensions.MsDependencyInjection.dll">
+      <publishTime>12/27/2019 19:47:44</publishTime>
+    </File>
+    <File Include="JSPool.dll">
+      <publishTime>01/04/2019 22:57:54</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>06/16/2020 19:22:20</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.PlatformAbstractions.dll">
+      <publishTime>08/21/2019 09:00:06</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>07/16/2020 04:13:50</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>07/16/2020 04:14:14</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>07/16/2020 04:14:26</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>07/16/2020 04:15:10</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>07/15/2020 06:42:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>07/15/2020 06:42:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>07/15/2020 06:42:44</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>07/15/2020 06:42:58</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>07/15/2020 06:43:06</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>08/21/2019 08:59:50</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>07/15/2020 06:43:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>07/15/2020 06:43:42</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>07/15/2020 06:43:48</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>07/15/2020 06:43:50</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>05/18/2020 20:11:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/18/2019 23:39:24</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/18/2019 23:40:20</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>10/18/2019 23:41:02</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>10/18/2019 23:48:48</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/18/2019 23:43:40</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>11/09/2019 00:56:44</publishTime>
+    </File>
+    <File Include="NotesTZ.deps.json">
+      <publishTime>07/27/2020 14:37:03</publishTime>
+    </File>
+    <File Include="NotesTZ.dll">
+      <publishTime>07/27/2020 14:36:42</publishTime>
+    </File>
+    <File Include="NotesTZ.exe">
+      <publishTime>07/27/2020 14:36:42</publishTime>
+    </File>
+    <File Include="NotesTZ.pdb">
+      <publishTime>07/27/2020 14:36:42</publishTime>
+    </File>
+    <File Include="NotesTZ.runtimeconfig.json">
+      <publishTime>07/27/2020 14:33:37</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>07/27/2020 14:01:57</publishTime>
+    </File>
+    <File Include="React.AspNet.dll">
+      <publishTime>07/22/2020 05:33:52</publishTime>
+    </File>
+    <File Include="React.AspNet.Middleware.dll">
+      <publishTime>07/22/2020 05:33:52</publishTime>
+    </File>
+    <File Include="React.Core.dll">
+      <publishTime>07/22/2020 05:33:46</publishTime>
+    </File>
+    <File Include="ru-ru/JavaScriptEngineSwitcher.ChakraCore.resources.dll">
+      <publishTime>06/11/2020 14:38:46</publishTime>
+    </File>
+    <File Include="ru-ru/JavaScriptEngineSwitcher.Core.resources.dll">
+      <publishTime>12/27/2019 19:45:22</publishTime>
+    </File>
+    <File Include="runtimes/linux-x64/native/libChakraCore.so">
+      <publishTime>06/10/2020 18:41:36</publishTime>
+    </File>
+    <File Include="runtimes/osx-x64/native/libChakraCore.dylib">
+      <publishTime>06/11/2020 08:03:30</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>06/16/2020 19:22:20</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>06/15/2020 19:07:26</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>06/15/2020 19:05:28</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>06/15/2020 19:07:26</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>06/15/2020 19:05:28</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/ChakraCore.dll">
+      <publishTime>06/10/2020 17:43:20</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>06/15/2020 19:07:26</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>06/15/2020 19:05:28</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/ChakraCore.dll">
+      <publishTime>06/10/2020 17:36:34</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>06/15/2020 19:07:14</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>06/15/2020 19:05:28</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>06/16/2020 19:22:20</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 08:53:44</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:53:46</publishTime>
+    </File>
+    <File Include="System.Collections.Immutable.dll">
+      <publishTime>07/15/2020 06:44:42</publishTime>
+    </File>
+    <File Include="System.ComponentModel.Annotations.dll">
+      <publishTime>07/15/2020 06:44:50</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/15/2019 08:37:04</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/15/2020 06:46:36</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/18/2019 23:38:18</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 08:37:36</publishTime>
+    </File>
+    <File Include="System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>07/15/2020 07:01:02</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:37:42</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>07/27/2020 14:37:03</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.css">
+      <publishTime>07/27/2020 14:02:27</publishTime>
+    </File>
+    <File Include="wwwroot/index.html">
+      <publishTime>07/27/2020 14:14:56</publishTime>
+    </File>
+    <File Include="wwwroot/js/app.jsx">
+      <publishTime>07/27/2020 14:12:49</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/CHANGELOG.md">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/dist/cjs/i18next.js">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/dist/esm/i18next.js">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/dist/umd/i18next.js">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/dist/umd/i18next.min.js">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/i18next.js">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/i18next.min.js">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/index.d.ts">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/index.js">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/LICENSE">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/package.json">
+      <publishTime>07/27/2020 14:02:09</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/README.md">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/i18next/tsconfig.nonEsModuleInterop.json">
+      <publishTime>10/26/1985 11:15:00</publishTime>
+    </File>
+    <File Include="wwwroot/Saas/style.scss">
+      <publishTime>07/27/2020 13:51:46</publishTime>
+    </File>
+    <File Include="x64/ChakraCore.dll">
+      <publishTime>06/10/2020 17:43:20</publishTime>
+    </File>
+    <File Include="x86/ChakraCore.dll">
+      <publishTime>06/10/2020 17:36:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

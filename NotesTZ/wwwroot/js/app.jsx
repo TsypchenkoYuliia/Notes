@@ -1,4 +1,31 @@
-﻿class Note extends React.Component {
+﻿
+
+
+//import i18next from "i18next";
+//const { i18next } = require('@i18next/index.js');
+//i18next.init({
+//    lng: 'ru',
+//    debug: true,
+//    resources: {
+//        en: {
+//            translation: {
+//                "delete": "delete"
+//            }
+//        },
+//        ru: {
+//            translation: {
+//                "delete": "удалить"
+//            }
+//        }
+//    }
+//}, function (err, t) {
+//    // initialized and ready to go!
+//        document.getElementById('deleteBtn').innerHTML = i18next.t('delete');
+//});
+
+
+
+class Note extends React.Component {
 
     constructor(props) {
         super(props);
@@ -14,7 +41,7 @@
             <td>{this.state.data.CreationDate}</td>
             <td>{this.state.data.Heading}</td>
             <td className="noteText">{this.state.data.Content}</td>
-            <td><button onClick={this.onClick}>Delete</button></td>
+            <td><button id="deleteBtn" onClick={this.onClick}>Delete</button></td>
         </tr>;
     }
 }

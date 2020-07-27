@@ -3,6 +3,15 @@ html, body {
   background-color: #26253f;
   font-family: themify; }
 
+input[type=submit], button {
+  border: solid 2px #68677e;
+  border-radius: 6px;
+  background-color: #26253f; }
+
+textarea, input[type=text] {
+  border: solid 2px #68677e;
+  border-radius: 6px; }
+
 #content {
   display: flex;
   flex-direction: column;
@@ -17,109 +26,78 @@ html, body {
   justify-content: center; }
 
 .formBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 50px;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 50px; }
 
 .innerBox {
-    margin-top:20px;
-    display: flex;
-    flex-direction: column;
-   
-    padding:5px;
-    border:solid 5px antiquewhite;
-    border-radius:10px;
-}
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: solid 5px antiquewhite;
+  border-radius: 10px; }
 
 .box {
-    width: 70%;
-    margin-top: 40px;
-}
+  width: 70%;
+  margin-top: 40px; }
 
 .boxTable {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-    
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .mainBox {
-    width: 90%;
-}
+  width: 90%; }
 
 table {
-    color: antiquewhite;
-}
+  color: antiquewhite; }
 
 th, td {
   text-align: center;
   padding: 10px; }
 
 .noteText {
-    max-width: 60% !important;
-}
+  max-width: 60% !important; }
 
 tr {
-    background-color: #36354f;
-}
+  background-color: #36354f; }
 
 th {
-    background-color: #68677e;
-}
+  background-color: #68677e; }
 
 h2 {
-    margin-top: 20px;
-    color: antiquewhite;
-}
+  margin-top: 20px;
+  color: antiquewhite; }
 
-h3,h1 {    
-    color: antiquewhite;
-}
+h3, h1 {
+  color: antiquewhite; }
 
 .titleBox {
-    display: flex;
-    align-items: center;
-}
+  display: flex;
+  align-items: center; }
 
-#area
-{
-    margin-top:37px;
-}
+#area {
+  margin-top: 37px; }
 
 textarea {
-    width: 200px;
-    height: 100px;
-    min-width: 200px;
-    min-height: 100px;
-    max-width: 200px;
-    max-height: 100px;
-    border: solid 2px #68677e;
-    border-radius: 6px;
-}
+  width: 200px;
+  height: 100px;
+  min-width: 200px;
+  min-height: 100px;
+  max-width: 200px;
+  max-height: 100px; }
 
 input[type=text] {
-    min-width: 200px;
-    border: solid 2px #68677e;
-    border-radius: 6px;
-}
+  min-width: 200px; }
 
 input[type=submit] {
-    margin-left: 10px;
-    width: 70px;
-    border: solid 2px #68677e;
-    border-radius: 6px;
-    background-color: #26253f;
-    color: antiquewhite;
-}
+  margin-left: 10px;
+  width: 70px;
+  color: antiquewhite; }
 
 button {
-    border: solid 2px #68677e;
-    border-radius: 6px;
-    background-color: #26253f;
-    color: antiquewhite;
-}
+  color: antiquewhite; }

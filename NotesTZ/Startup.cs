@@ -53,7 +53,7 @@ namespace NotesTZ
             app.UseReact(config => { });
             app.UseDefaultFiles();
             app.UseStaticFiles();
-
+            app.UseFileServer();
             app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
